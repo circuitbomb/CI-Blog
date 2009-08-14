@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* 
+Default CSS Document For Blog Engine
+Author:Circuitbomb
+Website:http://www.circuitbomb.com
+*/
+/* Start Structure */
+html, body {
+	margin:0 0 0 0;
+	padding: 0 0 0 0;
+	width:100%;
+	height:100%;
+}
+
+#wrapper {
+	width:960px;
+	margin:0 auto 0 auto;
+	background:#FF8000 url("../images/header-background.png") top center no-repeat;
+}
+
+#header {
+	width:100%;
+	height:60px;
+	padding-top:25px;
+	padding-left:15px;
+}
+
+	#header .logo {
+		width:40px;
+		height:40px;
+		float:left;
+		background:#FFF url("../images/ci-logo.png") top center no-repeat;
+	}
+	
+	#header .sitename {
+		float:left;	
+	}
+
+#menu {
+	width:100%;
+}
+
+#content {
+	width:673px;
+	float: left;
+	margin-left:7px;
+	margin-right:5px;
+	background:#FFF;
+}
+
+#sidebar {
+	width:260px;
+	float:left;
+	padding-left:8px;
+	margin-right:7px;
+	background:#FFF;	
+}
+
+#footer {
+	width:100%;
+	height:80px;
+	background:url("../images/footer-background.png") bottom center no-repeat;
+	clear: both;
+}
+	
+	#footer .footertext {
+		padding:25px 15px;
+		text-align:center;
+	}
+
+/*End Structure*/
+
+#post {
+	margin-left:10px;
+	margin-right:10px;
+	padding-bottom:15px;
+	margin-bottom:25px;
+}
+
+.entrytitle a{
+	font-weight:bold;
+	color:black;
+	text-decoration:none;
+}
+
+.entrytitle a:hover {
+	color:#CA0000;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#readmoreblock {
+	padding-top:20px;
+	color:#FFF;
+}
+
+#readmoreblock a {
+	padding-top:20px;
+	color:#FFF;
+	text-decoration:none;
+}
+
+.readmorebutton {
+	width:90px;
+	font:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	letter-spacing:3px;
+	background:#FF8000;
+	border:3px #B30000 solid;
+	float:right;
+	padding:3px 3px 3px 3px;
+	text-align:center;
+	margin-right:20px;
+}
+
+.readmorebutton:hover{
+	width:90px;
+	font:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	letter-spacing:3px;
+	background:#B30000;
+	border:3px #B30000 solid;
+	float:right;
+	padding:3px 3px 3px 3px;
+	text-align:center;
+	margin-right:20px;
+}
+
+.blogabstract {
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+}
+
+#authorship {
+	color:#FFF;
+}
+
+.postedby {
+	background:#FF8000;
+	border:3px #999 solid;
+	padding:3px 3px 3px 3px;
+	width:35%;
+	text-align:center;
+	font-size:11px;
+	font-style:italic;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+
+
+	
+
